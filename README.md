@@ -20,3 +20,4 @@ Architecture:
     - AWS GLUE
     - GCP
     - BIGQUERY
+    - AWS REDSHIFT
