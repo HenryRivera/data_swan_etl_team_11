@@ -1,2 +1,4 @@
 .ds4a_project/
+.aws/
 .ipynb_checkpoints/
+aws_secrets.json
