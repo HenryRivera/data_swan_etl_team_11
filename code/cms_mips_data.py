@@ -36,9 +36,9 @@ def load_review_data(year):
 #url_csv = 'https://data.cms.gov/data-api/v1/dataset/{uuid}/data.csv'.format(uuid=uuid_2021)
 #df2 = pd.read_csv(url_csv)
 
-url ='https://data.cms.gov/data-api/v1/dataset/{uuid}/data?size=10&offset=0'.format(uuid=uuid_2020)
-data_struct =requests.get(url).json()
-df  = pd.DataFrame(data_struct)
-df = df[['practice state or us territory', 'practice size', 'clinician specialty', 'npi', 'final score', 'complex patient bonus', 'quality category score', 'promoting interoperability (pi) category score','ia score','cost score']]
+#url ='https://data.cms.gov/data-api/v1/dataset/{uuid}/data?size=10&offset=0'.format(uuid=uuid_2020)
+#data_struct =requests.get(url).json()
+#df  = pd.DataFrame(data_struct)
+#df = df[['practice state or us territory', 'practice size', 'clinician specialty', 'npi', 'final score', 'complex patient bonus', 'quality category score', 'promoting interoperability (pi) category score','ia score','cost score']]
 
 load_review_data('2021')
