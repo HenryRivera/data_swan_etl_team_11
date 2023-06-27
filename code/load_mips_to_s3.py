@@ -7,9 +7,6 @@ Created on Mon Jun 26 22:24:21 2023
 """
 
 
-#aws_access_key_id=AKIAIOSFODNN7EXAMPLE
-#aws_secret_access_key=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
-
 
 #Imports 
 import json
