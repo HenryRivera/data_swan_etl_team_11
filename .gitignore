@@ -2,4 +2,4 @@
 .aws/
 .ipynb_checkpoints/
 aws_secrets.json
-.DS_Store/
+.DS_Store/.DS_Store
