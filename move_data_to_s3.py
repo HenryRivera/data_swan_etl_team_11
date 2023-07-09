@@ -58,7 +58,7 @@ def move_data_to_s3(id_list):
                 
                 response = requests.get(download)
                 
-                df = pd.read_csv(io.BytesIO(response.content), nrows=10)
+                df = pd.read_csv(io.BytesIO(response.content), nrows=1000000)
                 
                 csv_buffer = io.BytesIO()
                 df.to_csv(csv_buffer, index=False)
@@ -75,3 +75,5 @@ def move_data_to_s3(id_list):
 def main():
     ids = get_ids(2020, 2021)
     move_data_to_s3(ids)
+
+main()
