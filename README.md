@@ -1,1 +1,3 @@
 # data_swan_etl_team_11
+
+Data Swan Inc., a specialized data analysis division of our partner, focuses on retail, financial, and medical data analysis. The Head of Research and CFO aim to analyze physician payments from the CMS and explore correlations with patient ratings during the COVID-19 period. As data engineers, we set out to construct a high-performing data warehouse to support analysts in creating a comprehensive decision-making dashboard. The data warehouse should efficiently handle vast data volumes from diverse sources, ensuring accurate and reliable insights for informed recommendations.
